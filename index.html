@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>京东练习</title>
+    <link rel="stylesheet" href="main.css" media="screen" title="no title">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <!-- 头部登陆以及导航区 -->
+    <div id="header">
+        <div id="header_wrap">
+            <div id="sendPlace" class="pullDown">
+                <p>送至：<span> 北京</span><strong class="arrow"></strong></p>
+                <div id="sP_pullDown" class="pdList">
+                    <div class="sP_pD_list">
+                        <a href="javascript:;" style="background:#c81623; color:#FFF; ">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">北京</a>
+                    </div>
+                    <div class="sP_pD_list">
+                        <a href="javascript:;">上海</a>
+                    </div>
+                </div>
+            </div>
+            <ul id="header_nav">
+                <li>
+                    <a href="javascript:;">你好，请登录</a>
+                    <a style="color:#c81623;" href="javascript:;">免费注册</a>
+                </li>
+                <li class="divide">|</li>
+                <li>
+                    <a href="javascript:;">我的订单</a>
+                </li>
+                <li class="divide">|</li>
+                <li class="pullDown">
+                    <a href="javascript:;">我的京东<strong class="arrow"></strong></a>
+                    <div id="myJingdong_pullDown" class="pdList">
+                        <div id="myJingdong_pullDown_top">
+                            <a id="login_img">
+                                <img src="img/login_img.jpg" alt="" />
+                            </a>
+                            <a href="javascript:;" id="myJingdong_pullDown_login">你好，请登录</a>
+                            <p>
+                                <a href="javascript:;">优惠券</a>
+                                <span>|</span>
+                                <a href="javascript:;">消息</a>
+                            </p>
+                        </div>
+                        <ul id="myJingdong_pullDown_list">
+                            <li><a href="javascript:;">待处理订单</a></li>
+                            <li><a href="javascript:;">我的关注</a></li>
+                            <li><a href="javascript:;">咨询回复</a></li>
+                            <li><a href="javascript:;">我的京豆</a></li>
+                            <li><a href="javascript:;">降价商品</a></li>
+                            <li><a href="javascript:;">我的理财</a></li>
+                            <li><a href="javascript:;">返修退换货</a></li>
+                            <li><a href="javascript:;">京东白条</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="divide">|</li>
+                <li>
+                    <a href="javascript:;">京东会员</a>
+                </li>
+                <li class="divide">|</li>
+                <li>
+                    <a href="javascript:;">企业采购</a>
+                </li>
+                <li class="divide">|</li>
+                <li class="pullDown">
+                    <a href="javascript:;"><span id="mobile_jingdong"></span>手机京东<strong class="arrow"></strong></a>
+                    <div id="phone_pullDown" class="pdList">
+                        <div class="phone_pullDown_client">
+                            <div class="client_img_first"></div>
+                            <div class="client_download">
+                                <a href="javascript:;">京东客户端</a>
+                                <p>新人专享188元大礼包</p>
+                                <a href="javascript:;" class="client_list_first"></a>
+                            </div>
+                        </div>
+                        <div class="phone_pullDown_client">
+                            <div class="client_img_second"></div>
+                            <div class="client_download">
+                                <a href="javascript:;">京东钱包客户端</a>
+                                <p>扫一扫封顶立减999元</p>
+                                <a href="javascript:;" class="client_list_second">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="divide">|</li>
+                <li class="pullDown">
+                    <a href="javascript:;">关注京东<strong class="arrow"></strong></a>
+                    <div id="code_pullDown" class="pdList">
+                        <img src="img/two-dimension code.jpg" alt="" />
+                    </div>
+                </li>
+                <li class="divide">|</li>
+                <li class="pullDown">
+                    <a href="javascript:;">客户服务<strong class="arrow"></strong></a>
+                    <div id="serve_pullDown" class="pdList">
+                        <div class="serve_target">
+                            <p>
+                                客户
+                            </p>
+                            <ul>
+                                <li><a href="javascript:;">帮助中心</a></li>
+                                <li><a href="javascript:;">售后服务</a></li>
+                                <li><a href="javascript:;">在线客服</a></li>
+                                <li><a href="javascript:;">意见建议</a></li>
+                                <li><a href="javascript:;">客服邮箱</a></li>
+                            </ul>
+                        </div>
+                        <div class="serve_target">
+                            <p>商户</p>
+                            <ul>
+                                <li><a href="javascript:;">京东商学院</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="divide">|</li>
+                <li class="pullDown">
+                    <a href="javascript:;">网站导航<strong class="arrow"></strong></a>
+                    <div id="nav_pullDown" class="pdList">
+                        <ul id="nav_pullDown_wrap">
+                            <li class="nav_pullDown_theme">
+                                <p>特色主题</p>
+                                <ul>
+                                    <li><a href="javascript:;">品牌街</a></li>
+                                    <li><a href="javascript:;">好物100</a></li>
+                                    <li><a href="javascript:;">京东预售</a></li>
+                                    <li><a href="javascript:;">尖er货</a></li>
+                                    <li><a href="javascript:;">品牌街</a></li>
+                                    <li><a href="javascript:;">好物100</a></li>
+                                    <li><a href="javascript:;">京东预售</a></li>
+                                    <li><a href="javascript:;">尖er货</a></li>
+                                    <li><a href="javascript:;">品牌街</a></li>
+                                    <li><a href="javascript:;">好物100</a></li>
+                                    <li><a href="javascript:;">京东预售</a></li>
+                                    <li><a href="javascript:;">尖er货</a></li>
+                                    <li><a href="javascript:;">品牌街</a></li>
+                                    <li><a href="javascript:;">好物100</a></li>
+                                    <li><a href="javascript:;">京东预售</a></li>
+                                    <li><a href="javascript:;">尖er货</a></li>
+                                    <li><a href="javascript:;">品牌街</a></li>
+                                    <li><a href="javascript:;">好物100</a></li>
+                                    <li><a href="javascript:;">京东预售</a></li>
+                                    <li><a href="javascript:;">尖er货</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav_pullDown_theme">
+                                <p>行业频道</p>
+                                <ul>
+                                    <li><a href="javascript:;">服装城</a></li>
+                                    <li><a href="javascript:;">家用电器</a></li>
+                                    <li><a href="javascript:;">电脑办公</a></li>
+                                    <li><a href="javascript:;">服装城</a></li>
+                                    <li><a href="javascript:;">家用电器</a></li>
+                                    <li><a href="javascript:;">电脑办公</a></li>
+                                    <li><a href="javascript:;">服装城</a></li>
+                                    <li><a href="javascript:;">家用电器</a></li>
+                                    <li><a href="javascript:;">电脑办公</a></li>
+                                    <li><a href="javascript:;">服装城</a></li>
+                                    <li><a href="javascript:;">家用电器</a></li>
+                                    <li><a href="javascript:;">电脑办公</a></li>
+                                    <li><a href="javascript:;">服装城</a></li>
+                                    <li><a href="javascript:;">家用电器</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav_pullDown_theme">
+                                <p>生活服务</p>
+                                <ul>
+                                    <li><a href="javascript:;">京东众筹</a></li>
+                                    <li><a href="javascript:;">白条</a></li>
+                                    <li><a href="javascript:;">京东钱包</a></li>
+                                    <li><a href="javascript:;">京东众筹</a></li>
+                                    <li><a href="javascript:;">白条</a></li>
+                                    <li><a href="javascript:;">京东钱包</a></li>
+                                    <li><a href="javascript:;">京东众筹</a></li>
+                                    <li><a href="javascript:;">白条</a></li>
+                                    <li><a href="javascript:;">京东钱包</a></li>
+                                    <li><a href="javascript:;">京东众筹</a></li>
+                                    <li><a href="javascript:;">白条</a></li>
+                                    <li><a href="javascript:;">京东钱包</a></li>
+                                    <li><a href="javascript:;">京东众筹</a></li>
+                                    <li><a href="javascript:;">白条</a></li>
+                                    <li><a href="javascript:;">京东钱包</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav_pullDown_theme">
+                                <p style="border:none;">更多精选</p>
+                                <ul style="border:none;">
+                                    <li><a href="javascript:;">京东社区</a></li>
+                                    <li><a href="javascript:;">京东通信</a></li>
+                                    <li><a href="javascript:;">在线读书</a></li>
+                                    <li><a href="javascript:;">京东社区</a></li>
+                                    <li><a href="javascript:;">京东通信</a></li>
+                                    <li><a href="javascript:;">在线读书</a></li>
+                                    <li><a href="javascript:;">京东社区</a></li>
+                                    <li><a href="javascript:;">京东通信</a></li>
+                                    <li><a href="javascript:;">在线读书</a></li>
+                                    <li><a href="javascript:;">京东社区</a></li>
+                                    <li><a href="javascript:;">京东通信</a></li>
+                                    <li><a href="javascript:;">在线读书</a></li>
+                                    <li><a href="javascript:;">京东社区</a></li>
+                                    <li><a href="javascript:;">京东通信</a></li>
+                                    <li><a href="javascript:;">在线读书</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 顶部广告 -->
+    <div id="top_ad_wrap">
+        <div id="top_ad">
+            <img src="img/ad.jpg" alt="" />
+            <span id="close">X</span>
+        </div>
+    </div>
+
+    <!-- 搜索框 -->
+    <div id="search">
+        <div id="logo">
+            <a href="javascript:;"></a>
+        </div>
+
+        <div id="serach_group">
+            <form action="#" method="get">
+                <input type="text" name="searchValue" />
+                <button type="button" name="button">搜索</button>
+            </form>
+            <div id="hot_fonts">
+                <a href="javascript:;" style="color:#c81623; margin-left:12px;">家电5折</a>
+                <a href="javascript:;">数码6元</a>
+                <a href="javascript:;">蓝莓鲜果</a>
+                <a href="javascript:;">手机大促</a>
+                <a href="javascript:;">直降918元</a>
+                <a href="javascript:;">电饭锅</a>
+                <a href="javascript:;">0元试购</a>
+            </div>
+        </div>
+        <div id="user_pay">
+            <a href="javascript:;">我的购物车</a>
+            <div class="divide"></div>
+            <div id="user_pay_pullDown">
+                <p>
+                    购物车中还没有商品，赶紧选购吧！
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航列表 -->
+    <div id="nav_top">
+        <a href="javascript:;" id="allList">全部商品分类</a>
+        <ul id="nav_list">
+            <li><a href="javascript:;">服装城</a></li>
+            <li><a href="javascript:;">美妆馆</a></li>
+            <li><a href="javascript:;">超市</a></li>
+            <li><a href="javascript:;">生鲜</a></li>
+            <li><a href="javascript:;">全球购</a></li>
+            <li><a href="javascript:;">闪购</a></li>
+            <li><a href="javascript:;">团购</a></li>
+            <li><a href="javascript:;">拍卖</a></li>
+            <li><a href="javascript:;">金融</a></li>
+        </ul>
+        <a href="javascript:;" id="goMainPage"></a>
+    </div>
+
+    <!-- 商品分类以及主轮播图 -->
+    <div id="goods_wrap">
+        <div id="goods_main">
+            <div id="goodsList">
+                <div class="goodList">
+                    <h2><a href="javascript:;">家用电器</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">手机、数码、京东通信</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">电脑、办公</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">家居、家具、家装、厨具</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">男装、女装、童装、内衣</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">个护化妆、清洁用品、宠物</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">鞋靴、箱包、珠宝、奢侈品</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">运动户外、钟表</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">汽车、汽车用品</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">母婴、玩具乐器</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">食品、酒类、生鲜、特产</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">医药保健</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">图书、音像、电子书</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">彩票、旅行、充值、票务</a><span>></span></h2></div>
+                <div class="goodList">
+                    <h2><a href="javascript:;">理财、众筹、白条、保险</a><span>></span></h2></div>
+            </div>
+            <!-- 中间的轮播图 -->
+            <div id="flash">
+                <ul id="pic">
+                    <li style="display:block"><img src="http://img13.360buyimg.com/da/jfs/t2242/262/578407619/87636/4ffe0c5/56187ed2Nfed9a5b3.jpg" alt=""></li>
+                    <li><img src="http://img13.360buyimg.com/da/jfs/t2143/111/577347825/96150/e27180bd/561889b3N42ee62b5.jpg" alt=""></li>
+                    <li><img src="http://img20.360buyimg.com/da/jfs/t1825/234/1750370913/97529/b9229832/560b5ad3N054605f7.jpg" alt=""></li>
+                    <li><img src="http://img10.360buyimg.com/da/jfs/t2026/215/573306345/95654/a0211937/5618a735N1b3d8423.jpg" alt=""></li>
+                    <li><img src="http://img20.360buyimg.com/da/jfs/t2065/362/579832759/78899/6f349917/5618c680N3752bacc.jpg" alt=""></li>
+                    <li><img src="http://img10.360buyimg.com/da/jfs/t2023/45/384256123/101565/9b6e5daf/5604bdceN8c7d2ccf.jpg" alt=""></li>
+                </ul>
+                <ol id="num">
+                    <li class="active">1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                </ol>
+                <a href="javascript:;" class="arrow" id="left">&lt;</a>
+                <a href="javascript:;" class="arrow" id="right">&gt;</a>
+            </div>
+
+            <!-- 右侧快捷导航 -->
+            <div id="quickBuy">
+                <!-- 上部新闻 -->
+                <div id="news">
+                    <div id="quickNews">
+                        <h2>京东快报</h2>
+                        <a href="javascript:;">更多 ></a>
+                    </div>
+                    <ul id="newsList">
+                        <li><a style="color:#c81623;" href="javascript:;"><span>[618]</span>扫地机器人1元拼团购</a></li>
+                        <li><a href="javascript:;"><span>[公告]</span>华南区因强降雨配送延迟</a></li>
+                        <li><a href="javascript:;"><span>[特惠]</span>手机大促500元神卷限量领</a></li>
+                        <li><a href="javascript:;"><span>[公告]</span>阅读指数帮您选好书好碟</a></li>
+                        <li><a href="javascript:;"><span>[特惠]</span>奥利奥乐趣口袋8折优惠</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
