@@ -709,7 +709,7 @@ body {
     background: #f00;
 }
 
-.arrow {
+.arrowImage {
     height: 60px;
     width: 30px;
     line-height: 60px;
@@ -723,11 +723,11 @@ body {
     display: none;
 }
 
-.arrow:hover {
+.arrowImage:hover {
     background: rgba(0, 0, 0, 0.7);
 }
 
-#flash:hover .arrow {
+#flash:hover .arrowImage {
     display: block;
 }
 
@@ -794,3 +794,83 @@ body {
     font-weight: 700;
     margin-right: 5px;
 }
+
+/*中间快捷框*/
+#quick_group{
+    position: relative;
+    height: 208px;
+    width: 249px;
+    border-left: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+
+#items_group{
+    overflow: auto;
+}
+#items_group li{
+    float: left;
+    width: 61px;
+    height: 68px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#items_group li a{
+    display: block;
+    width: 61px;
+    height: 68px;
+    position: relative;
+}
+
+#items_group li span{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#items_group li strong{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 16px;
+    left: 18px;
+}
+
+.item1 strong{
+	background:url(img/small_icon.png) no-repeat 0 0;
+	}
+.item2 strong{
+	background:url(img/small_icon.png) no-repeat 0 -25px;
+	}
+.item3 strong{
+	background:url(img/small_icon.png) no-repeat 0 -50px;
+	}
+.item4 strong{
+	background:url(img/small_icon.png) no-repeat 0 -75px;
+	}
+.item5 strong{
+	background:url(img/small_icon.png) no-repeat 0 -100px;
+	}
+.item6 strong{
+	background:url(img/small_icon.png) no-repeat 0 -125px;
+	}
+.item7 strong{
+	background:url(img/small_icon.png) no-repeat 0 -150px;
+	}
+.item8 strong{
+	background:url(img/small_icon.png) no-repeat 0 -175px;
+	}
+.item9 strong{
+	background:url(img/small_icon.png) no-repeat 0 -200px;
+	}
+.item10 strong{
+	background:url(img/small_icon.png) no-repeat 0 -225px;
+	}
+.item11 strong{
+	background:url(img/small_icon.png) no-repeat 0 -250px;
+	}
+.item12 strong{
+	background:url(img/small_icon.png) no-repeat 0 -275px;
+	}
