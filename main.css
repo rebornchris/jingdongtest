@@ -874,3 +874,232 @@ body {
 .item12 strong{
 	background:url(img/small_icon.png) no-repeat 0 -275px;
 	}
+
+/*快捷购买隐藏的部分*/
+#quick_pullDown{
+    position: absolute;
+    top: 208px;
+    width: 248px;
+    height: 208px;
+    background: #FFF;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 2px solid #e4e4e4;
+}
+
+#four_options{
+    overflow: auto;
+}
+
+#four_options li{
+    float: left;
+    width: 61px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#four_options li:hover{
+    border-bottom: none;
+    border-top: 2px solid #c81623;
+}
+
+#four_options .fourActive{
+    border-bottom: none;
+    border-top: 2px solid #c81623;
+}
+
+#content_wrap{
+    width: 248px;
+    height: 180px;
+    position: relative;
+}
+
+#content_wrap .four_list{
+    width:248px;
+	height:180px;
+	background:#FFF;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.vanish{
+    position: absolute;
+    top: 0;
+    right: 1px;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    color: #cccccc;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.vanish:hover{
+    background: #cccccc;
+    color: #fff;
+}
+
+/*话费内部内容*/
+
+#phone_content ul{
+    margin: 18px 0 0 8px;
+    overflow: auto;
+}
+
+#phone_content li{
+    float: left;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+#phone_content form{
+    height: 92px;
+    position: absolute;
+    top: 46px;
+    left: 8px;
+}
+
+#phone_content input:nth-last-of-type(1){
+    height: 20px;
+    width: 108px;
+}
+
+#phone_content select{
+    height: 20px;
+    width: 108px;
+    margin-top: 12px;
+}
+
+#phone_content button{
+    height: 26px;
+    line-height: 26px;
+    width: 68px;
+    text-align: center;
+    color: #FFF;
+    background: #c81623;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#phone_content a{
+    color: #005ea7;
+    position: absolute;
+    left: 8px;
+    bottom: 6px;
+}
+
+#phone_content strong{
+    color: #FFF;
+    background: #c81623;
+    font-size: 8px;
+    padding: 0 4px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/*机票内部内容*/
+#air_content ul{
+	margin:18px 0 0 8px;
+	overflow:auto;
+	}
+#air_content li{
+	float:left;
+	margin-right:8px;
+	padding:2px;
+	}
+#air_content form{
+	height:120px;;
+	position:absolute;
+	top:46px;
+	left:8px;
+	}
+#air_content label{
+	margin-right:16px;
+	}
+#air_content .select{
+	width:100px;
+	height:24px;
+	margin:10px 26px 0 0;
+	}
+#air_content .select:nth-of-type(2){
+	margin-right:0;
+	}
+#air_content button{
+	height:26px;
+	line-height:26px;
+	width:68px;
+	text-align:center;
+	color:#FFF;
+	background:#c81623;
+	margin-top:10px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	}
+
+/*电影票内部内容*/
+#movie_content ul{
+	margin:10px 0 0 8px;
+	overflow:auto;
+	}
+#movie_content li{
+	float:left;
+	margin-right:8px;
+	padding:2px;
+	}
+#movie_list{
+	padding:0 11px;
+	}
+#movie_list div{
+	width:65px;
+	height:116px;
+	padding:8px 5px 6px 5px;
+	float:left;
+	}
+#movie_list	img{
+	width:65px;
+	height:90px;
+	}
+#movie_list div a:nth-of-type(2){
+	width:57px;
+	height:20px;
+	display:block;
+	color:#FFF;
+	background:#c81623;
+	margin:5px auto;
+	text-align:center;
+	line-height:20px;
+	}
+.move_hot{
+	color:#005ea7;
+	margin-left:10px;
+	}
+.move_hot strong{
+	color:#FFF;
+	background:#c81623;
+	font-size:8px;
+	padding:0 2px;
+	margin-right:8px;
+	vertical-align:middle;
+	}
+
+/*游戏内部内容*/
+#game_content ul{
+	margin:18px 0 0 8px;
+	overflow:auto;
+	}
+#game_content li{
+	float:left;
+	margin-right:8px;
+	padding:2px;
+	}
+#game_content a{
+	float:left;
+	display:inline-block;
+	margin:20px 0 0 10px;
+	}

@@ -3,8 +3,10 @@ window.onload = function(){
     main.app.pullDown();
     main.app.userBuy();
     main.app.imageChange();
+    main.app.tap();
 };
 var main={};
+
 main.app = {};
 
 main.app.pullDown = function(){
@@ -132,3 +134,55 @@ main.app.imageChange= function(){
         numList[curIndex].className = 'active';
     }
 }
+
+// main.ui = {};
+// main.ui.tab = function(alist,blist,classname1,classname2){
+//     for(var i = 0; i<alist.length; i++){
+//         (function(i){
+//             alist[i].onmouseover = function(){
+//                 for(var j = 0; j<blist.length; j++){
+//                     blist[j].style.display = 'none';
+//                     alist[j].className = classname1;
+//                 }
+//                 this.className = classname2;
+//                 blist[i].style.display = 'block';
+//             }
+//         })(i)
+//     }
+// }
+main.app.tap = function(){
+    var aPull = document.getElementsByClassName('pull');
+    var oPullDown = document.getElementById('quick_pullDown');
+    var oUl = document.getElementById('four_options');
+    var aLi = oUl.getElementsByTagName('li');
+    var aDiv = document.getElementsByClassName('four_list');
+    var aVanish = document.getElementsByClassName('vanish');
+    var onOff = true;
+    // var top1 = 208;
+    // var top2 =0;
+
+    for(var i = 0; i<aLi.length; i++){
+        (function(i){
+            aLi[i].onmouseover = function(){
+                for(var j = 0; j<aDiv.length; j++){
+                    aDiv[j].style.display = 'none';
+                }
+                aDiv[i].style.display = 'block';
+            }
+        })(i)
+    };
+
+    for(var i = 0; i<aPull.length; i++){
+        aVanish[i].onclick = function(){
+            oPullDown.style.top = '208px';
+            onOff = true;
+        }
+
+        aPull[i].onmouseover = function(){
+            if(onOff){
+                oPullDown.style.top = '0px';
+                onOff = false;
+            }
+        }
+        }
+    }
