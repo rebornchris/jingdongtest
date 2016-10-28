@@ -2283,6 +2283,7 @@ body {
     position: fixed;
     top: 0;
     right: -288px;
+    z-index: 999;
 }
 
 #right_buy {
